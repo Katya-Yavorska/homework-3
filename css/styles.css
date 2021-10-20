@@ -182,7 +182,7 @@ margin-right: 50px;
 }
 
 .hero-title {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -272,13 +272,13 @@ margin-right: var(--card-set-gap);
 }
 
 .team-card-text {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 
 }
 
 .team-title {
-padding-bottom: 50px;
+margin-bottom: 50px;
 }
 
 .team-item {
