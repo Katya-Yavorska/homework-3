@@ -39,15 +39,18 @@ body {
   margin: 0 auto;
 }
 .section {
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;  
 }
 
 .list {
   list-style: none;
 }
+
 .link {
   text-decoration: none;
 }
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -60,6 +63,7 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
+
 .logo {
   font-family: Raleway;
   font-weight: 700;
@@ -68,6 +72,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
+
 .link-current {
   font-weight: 500;
   font-size: 14px;
@@ -75,9 +80,11 @@ body {
   letter-spacing: 0.02em;
   color: var(--accent-color);
 }
+
 .hero, .footer {
     background-color: var(--second-background-color);
 }
+
 .work-title, .team-title {
     font-weight: bold;
 font-size: 36px;
@@ -271,7 +278,6 @@ margin-right: var(--card-set-gap);
 }
 
 .team-title {
-padding-top: 94px;
 padding-bottom: 50px;
 }
 
@@ -345,25 +351,24 @@ color: rgba(255, 255, 255, 0.6);
   color: var(--accent-color);
 }
 /* ---------------------------------------Portfolio--------------------------------------------------------- */
-.portfolio-container {
-  margin-top: 94px;
-}
+
 
 .portfolio-nav {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 
 }
 
 .portfolio-nav-item:not(:last-child) {
-margin-right: 30px;
-margin-bottom: 50px;
+margin-right: 6px;
 }
 
 .portfolio-btn {
 display: block;
 min-width: 73px;
 height: 38px;
+padding: 6px 22px;
 border: 1px solid transparent;
 border-radius: 4px;
     font-weight: 500;
@@ -378,6 +383,11 @@ background-color: var(--third-background-color);
 .portfolio-btn:hover, .portfolio-btn:focus {
     color: var(--header-text-color);
     background-color: var(--accent-color);
+}
+
+.btn-current {
+  color: var(--header-text-color);
+  background-color: var(--accent-color);
 }
 
 .project-list {
